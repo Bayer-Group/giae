@@ -1,6 +1,6 @@
 # Unsupervised Learning of Group Invariant and Equivariant Representations 
 
-<img src="https://github.com/bayer-int/giae/blob/main/assets/idea.png" alt="idea" width="200" height="200" />
+<img src="https://github.com/bayer-int/giae/blob/main/assets/idea.png" alt="idea" width="500" height="300" />
 
 This repository holds the source code to reproduce the experiments done for the paper "Unsupervised Learning of Group Invariant and 
 Equivariant Representations" presented at NeurIPS 2022. Check the repositories so2, se3 and sn for more instructions how to run and evaluate the models for the different 
