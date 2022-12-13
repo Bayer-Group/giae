@@ -18,7 +18,7 @@ groups and data types.
 ```
 conda create -n giae
 conda activate giae 
-conda install pytorch torchvision torchaudio cudatoolkit=11.3 pyg pytorch-lightning -c pytorch -c pyg -c conda-forge
+conda install pytorch=1.11 torchvision torchaudio cudatoolkit=11.3 pyg pytorch-lightning=1.6.2 -c pytorch -c pyg -c conda-forge
 pip install .
 ```
 
