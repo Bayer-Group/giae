@@ -26,9 +26,9 @@ pip install .
 ## How to run the code
 
 We have provided instructions for the different group-specific implementations here:
-- [SO(2)](so2/README.md)
-- [SE(3)](se3/README.md)
-- [S(N)](sn/README.md)
+- [SO(2)](giae/so2/README.md)
+- [SE(3)](giae/se3/README.md)
+- [S(N)](giae/sn/README.md)
 
 as well as accompanying jupyter notebooks to analyze the results.
 
