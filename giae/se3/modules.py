@@ -263,7 +263,6 @@ class Permuter(torch.nn.Module):
         scores = self.score(node_features)
         perm = self.soft_sort(scores=scores, batch=batch, hard=hard, tau=tau)
         perm = perm.transpose(2, 1)
-        #perm = self.mask_perm(perm, mask)
         return perm
 
     @staticmethod

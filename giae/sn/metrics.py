@@ -13,7 +13,6 @@ class PermutationMatrixPenalty(torch.nn.Module):
         return e
 
     def forward(self, perm, eps=10e-8):
-        #print(perm.shape)
         perm = perm + eps
         entropy_col = self.entropy(perm, axis=1, normalize=False)
         entropy_row = self.entropy(perm, axis=2, normalize=False)

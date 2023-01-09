@@ -147,8 +147,6 @@ class Permuter(Module):
 
     def score(self, x, mask=None):
         scores = self.scoring_fc(x)
-        #fill_value = scores.min().item() - 1
-        #scores = scores.masked_fill(mask.unsqueeze(-1) == 0, fill_value)
         return scores
 
     def soft_sort(self, scores, hard, tau):
@@ -174,7 +172,6 @@ class Permuter(Module):
         scores = self.score(node_features, mask)
         perm = self.soft_sort(scores, hard, tau)
         perm = perm.transpose(2, 1)
-        #perm = self.mask_perm(perm, mask)
         return perm
 
     @staticmethod
