@@ -92,5 +92,4 @@ class DigitSetDataset(Dataset):
         idxs = self.idxs[item]
         x = self.digits[idxs]
         y = idxs.sum()
-        #print(x.shape, x)
         return x, y

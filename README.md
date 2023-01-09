@@ -23,6 +23,15 @@ conda install pytorch=1.11 torchvision torchaudio cudatoolkit=11.3 pyg pytorch-l
 pip install .
 ```
 
+## How to run the code
+
+We have provided instructions for the different group-specific implementations here:
+- [SO(2)](so2/README.md)
+- [SE(3)](se3/README.md)
+- [S(N)](sn/README.md)
+
+as well as accompanying jupyter notebooks to analyze the results.
+
 ## References
 > @inproceedings{
 winter2022unsupervised,
